@@ -16,6 +16,8 @@ jobs:
           flutter-version: '3.24.0'
           channel: 'stable'
 
+      - run: flutter create --platforms=android --project-name gundogan_bakkal_stok --org org.gundogan .
+
       - run: flutter pub get
 
       - run: flutter build apk --release
