@@ -13,7 +13,6 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.0'
           channel: 'stable'
 
       - run: flutter create --platforms=android --project-name gundogan_bakkal_stok --org org.gundogan .
